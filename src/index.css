@@ -1,7 +1,3 @@
-:root {
-
-}
-
 body {
   background-color: #DBAFAF;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -14,6 +10,8 @@ nav {
 }
 
 button {
+  height: 100px;
+  width: 200px;
   background-color: #B18383;
   color: #ffff;
 }
