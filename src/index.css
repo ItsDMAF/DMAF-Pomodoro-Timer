@@ -15,3 +15,7 @@ button {
   background-color: #B18383;
   color: #ffff;
 }
+
+.timer {
+  font-size: 30px;
+}
