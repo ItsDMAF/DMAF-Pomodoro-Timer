@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <nav>
+    <nav class="nav--bar">
       <h1>DMAFdoro</h1>
       <ul>
         <li><a href="">Timer</a></li>
@@ -16,6 +16,9 @@
     </nav>
     <div class="container">
       <div id="timer--counter" class="timer">25:00</div>
+      <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="progress--bar" id="progressBar"></div>
+      </div>
       <h3 id="message"></h3>
       <div class="option--buttons">
         <button id="start">Start</button>
