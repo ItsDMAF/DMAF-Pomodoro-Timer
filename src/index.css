@@ -1,5 +1,5 @@
 :root{
-  --background: hsl(0, 69%, 84%);          
+  --background: hsl(0, 39%, 77%);          
   --primary: hsl(0, 69%, 67%);      
   --secondary: hsl(0, 78%, 87%);
   --text: hsl(0, 0%, 17%);       
@@ -24,4 +24,9 @@ body {
 
 .nav--bar h1 {
   font-size: 24px;
+}
+
+.option--buttons button {
+  background-color: var(--primary);
+  color: var(--secondary;
 }
