@@ -10,10 +10,11 @@ body {
   background-color: var(--background);
   color: var(--text);
   display: flex;
+  margin: 0px;
   flex-direction: column;
 }
 
-.nav--bar nav {
+.nav--bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,9 +24,23 @@ body {
 }
 
 .nav--bar h1 {
-  font-size: 24px;
+  font-size: 20px;
+  margin: 0px;
 }
 
+.nav--bar ul {
+  list-style: none;
+  display: flex;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.nav--bar a {
+  color: var(--text);
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
 .option--buttons button {
   background-color: var(--primary);
   color: var(--secondary);
