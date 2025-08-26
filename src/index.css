@@ -41,7 +41,38 @@ body {
   padding: 6px 10px;
   border-radius: 8px;
 }
-.option--buttons button {
+
+.nav--bar a:hover {
+  background: var(--background); 
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  padding: 16px;
+}
+
+.timer {
   background-color: var(--primary);
-  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  font-size: 50px;
+  border-radius: 16px;
+  padding: 20px 16px;
+  text-align: center;
+}  
+
+.option--buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.option--buttons button {
+  appearance: none;
+  height: 34px;
+  min-width: 70px;
+  border: 1px solid var(--secondary);
+  background-color: var(--primary);
+  color: var(--text);
+  border-radius: 12px;
 }
