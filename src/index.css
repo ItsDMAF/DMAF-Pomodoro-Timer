@@ -19,7 +19,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: var(--primary);
-  padding: 10px 16px;
+  padding: 5px 20px;
   border-bottom: 1px solid var(--text);
 }
 
@@ -69,10 +69,15 @@ body {
 
 .option--buttons button {
   appearance: none;
-  height: 34px;
-  min-width: 70px;
+  height: 44px;
+  min-width: 74px;
   border: 1px solid var(--secondary);
   background-color: var(--primary);
   color: var(--text);
   border-radius: 12px;
+}
+
+footer {
+  display: grid;
+  place-content: center;
 }
