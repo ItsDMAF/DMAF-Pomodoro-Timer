@@ -1,12 +1,12 @@
-:root{
-  --background: hsl(0, 41%, 72%);          
-  --primary: hsl(0, 61%, 65%);      
+:root {
+  --background: hsl(0, 41%, 72%);
+  --primary: hsl(0, 61%, 65%);
   --secondary: hsl(0, 67%, 78%);
-  --text: hsl(0, 0%, 17%);       
+  --text: hsl(0, 0%, 17%);
 }
 
 body {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--background);
   color: var(--text);
   display: flex;
@@ -43,7 +43,7 @@ body {
 }
 
 .nav--bar a:hover {
-  background: var(--background); 
+  background: var(--background);
 }
 
 .container {
@@ -59,7 +59,7 @@ body {
   border-radius: 16px;
   padding: 20px 16px;
   text-align: center;
-}  
+}
 
 .option--buttons {
   display: flex;

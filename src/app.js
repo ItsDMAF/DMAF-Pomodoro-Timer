@@ -11,7 +11,9 @@ let isRunning = false;
 function updateTimer() {
   let minutes = Math.floor(timeRemaining / 60);
   let seconds = timeRemaining % 60;
-  counter.textContent = `${String(minutes).padStart(2, "0")}:${String(seconds).padEnd(2, "0")}`;
+  counter.textContent = `${String(minutes).padStart(2, "0")}:${String(
+    seconds
+  ).padEnd(2, "0")}`;
 }
 
 function startTime() {
